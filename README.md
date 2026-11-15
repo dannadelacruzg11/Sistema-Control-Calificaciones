@@ -1,24 +1,28 @@
 # Sistema de Control de Calificaciones 
 
-En este trabajo hice un programa en C++ que sirve para registrar las notas de los estudiantes y calcular sus promedios. También permite saber quiénes aprobaron y quiénes reprobaron.
+En este trabajo hice un programa en C++ para llevar un control de las calificaciones de los estudiantes. Con este programa puedo registrar sus notas, calcular sus promedios y saber quiénes aprobaron y quiénes reprobaron.
 
 # Cómo funciona
 
-Primero, el programa pide cuántos estudiantes voy a registrar. Luego escribo sus nombres y las cuatro notas de cada uno.
+Primero, el programa me pide la cantidad de estudiantes que voy a registrar. Después, escribo el nombre de cada uno y sus cuatro calificaciones.
 
-El programa revisa que las notas estén entre 0 y 100 y calcula los promedios. Al final muestra cuántos aprobaron, cuántos reprobaron, el promedio del grupo y quién sacó la nota más alta.
+El programa revisa que la cantidad de estudiantes sea mayor que cero y que las notas estén entre 0 y 100. Luego suma las cuatro notas y las divide entre cuatro para calcular el promedio.
+
+Si el estudiante obtiene 70 puntos o más, aprueba. Si obtiene menos de 70, reprueba.
+
+Al terminar, el programa muestra cuántos estudiantes aprobaron y reprobaron, el promedio general del grupo y el nombre del estudiante que obtuvo el promedio más alto. También me pregunta si quiero registrar otro grupo.
 
 # Bucles que utilicé
 
- For: Para registrar los estudiantes y sus cuatro notas.
- 
- While: Para revisar que los datos estén correctos.
- 
- Do while: Para poder registrar otro grupo si quiero.
+For: Lo utilicé para registrar a cada estudiante y pedir sus cuatro calificaciones.
+
+While: Lo utilicé para revisar que los datos ingresados sean correctos. Si escribo un dato incorrecto, el programa vuelve a pedirlo.
+
+Do while: Lo utilicé para poder registrar otro grupo de estudiantes sin tener que ejecutar el programa otra vez.
 
 # Herramientas
 
-Para hacer este trabajo utilicé C++, Visual Studio y GitHub.
+Para realizar este trabajo utilicé C++ y Visual Studio para escribir y ejecutar el programa. También utilicé GitHub para guardar y compartir mi proyecto.
 
 # Capturas de pantalla 
 
